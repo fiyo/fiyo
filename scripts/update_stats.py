@@ -47,6 +47,7 @@ DISPLAY_NAMES = {
     "DBCheck": "RaccoonX 主仓库",
     "RaccoonX-website": "RaccoonX 官网",
     "DBCheck-website": "官网（旧站）",
+    "dbcheck-skill": "RaccoonX 技能包",
 }
 
 
@@ -290,7 +291,13 @@ def card(title, subtitle, body, height, data):
 
 def display_repo(name, user):
     short = name.removeprefix(user + "/")
-    return DISPLAY_NAMES.get(short, short)
+    if short in DISPLAY_NAMES:
+        return DISPLAY_NAMES[short]
+    # 兜底：新增仓库若仍带旧品牌字样，展示层统一收敛，不直接露出旧名
+    if "dbcheck" in short.lower():
+        tail = short.lower().replace("dbcheck", "").strip("-_ ")
+        return f"RaccoonX · {tail}" if tail else "RaccoonX 相关仓库"
+    return short
 
 
 def bars(title, subtitle, rows, data, footnote=""):
