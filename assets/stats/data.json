@@ -1,6 +1,6 @@
 {
   "user": "fiyo",
-  "updated": "2026-11-15 03:52 UTC",
+  "updated": "2026-11-15 03:57 UTC",
   "start": "2025-11-16",
   "end": "2026-11-15",
   "days": {
@@ -388,8 +388,8 @@
     "fiyo/DBCheck": 20,
     "fiyo/RaccoonX-website": 2,
     "fiyo/fiyo.github.io": 2,
-    "fiyo/DBCheck-website": 1,
-    "fiyo/dbcheck-skill": 1
+    "fiyo/dbcheck-skill": 1,
+    "fiyo/DBCheck-website": 1
   },
   "commit_sample": 76,
   "commit_total": 76,
