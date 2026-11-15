@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+
+# 本地预览与示例图表，不进版本库
+preview.html
+assets/stats-demo/
