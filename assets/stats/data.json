@@ -1,10 +1,9 @@
 {
   "user": "fiyo",
-  "updated": "2026-11-15 03:57 UTC",
-  "start": "2025-11-16",
-  "end": "2026-11-15",
+  "updated": "2026-11-16 08:01 UTC",
+  "start": "2025-11-17",
+  "end": "2026-11-16",
   "days": {
-    "2025-11-16": 0,
     "2025-11-17": 0,
     "2025-11-18": 0,
     "2025-11-19": 0,
@@ -368,11 +367,12 @@
     "2026-11-12": 0,
     "2026-11-13": 0,
     "2026-11-14": 0,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2026-11-16": 0
   },
   "calendar_precision": "每日精确贡献数",
   "activity": {
-    "提交 Commits": 76,
+    "提交 Commits": 56,
     "合并请求 PR": 1,
     "问题 Issues": 1
   },
@@ -386,19 +386,19 @@
   "unclassified_repos": 5,
   "active_repositories": {
     "fiyo/DBCheck": 20,
-    "fiyo/RaccoonX-website": 2,
     "fiyo/fiyo.github.io": 2,
+    "fiyo/RaccoonX-website": 2,
     "fiyo/dbcheck-skill": 1,
     "fiyo/DBCheck-website": 1
   },
-  "commit_sample": 76,
-  "commit_total": 76,
-  "external_commit_matches": 50,
+  "commit_sample": 56,
+  "commit_total": 56,
+  "external_commit_matches": 30,
   "sources": [
     "https://github.com/users/fiyo/contributions",
     "https://api.github.com/users/fiyo/repos?type=owner&per_page=100",
-    "https://api.github.com/search/commits?q=author%3Afiyo%20committer-date%3A2025-11-16..2026-11-15%20is%3Apublic",
-    "https://api.github.com/search/issues?q=author%3Afiyo%20created%3A2025-11-16..2026-11-15%20is%3Apublic"
+    "https://api.github.com/search/commits?q=author%3Afiyo%20committer-date%3A2025-11-17..2026-11-16%20is%3Apublic",
+    "https://api.github.com/search/issues?q=author%3Afiyo%20created%3A2025-11-17..2026-11-16%20is%3Apublic"
   ],
   "definitions": {
     "calendar": "GitHub 公开贡献日历最近 365 天，遵循 GitHub 贡献计入规则，不含私有仓库贡献。",
